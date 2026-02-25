@@ -9,3 +9,6 @@ Most of the masks appeared to fit their corresponding images; however, there wer
 
 41-60:
 The masks fit the lesions quite well for majority of the images, however some had imperfections. For example, lesion 717 mask did not show the affected area at the top edge of the image. Only the most noticeable lesion in Lesion 3924 was identified by the corresponding mask while other similar areas were ignored. 
+
+81–100: 
+While most masks fit the lesions well, this section is heavily impacted by clinical artifacts like purple pen marks and thick hair. These "shortcuts" could cause the model to incorrectly associate ink or hair with malignancy rather than the lesion itself.
