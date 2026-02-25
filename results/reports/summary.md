@@ -6,3 +6,6 @@ Most of the masks fit the lesions perfectly. However, for the image "104-1755-32
 
 21-40:
 Most of the masks appeared to fit their corresponding images; however, there were a few cases where the masks were inaccurate and did not properly correspond to the lesion due to pen marks or hair occlusion.
+
+41-60:
+The masks fit the lesions quite well for majority of the images, however some had imperfections. For example, lesion 717 mask did not show the affected area at the top edge of the image. Only the most noticeable lesion in Lesion 3924 was identified by the corresponding mask while other similar areas were ignored. 
