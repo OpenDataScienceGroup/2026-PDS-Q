@@ -12,3 +12,7 @@ The masks fit the lesions quite well for majority of the images, however some ha
 
 81–100: 
 While most masks fit the lesions well, this section is heavily impacted by clinical artifacts like purple pen marks and thick hair. These "shortcuts" could cause the model to incorrectly associate ink or hair with malignancy rather than the lesion itself.
+
+Insights from metadata:
+The dataset primarily represents an elderly population, with most patients aged 60 to 80 years old and an average male majority(57.5%). Most people do not smoke or drink, while around 31% data(about smoking and drinking) is missing. The most common diagnoses are BCC and ACK, both of which are linked to long-term sun exposure in elderly people. Overall, this data indicates a high-risk aged population, which corresponds to the large number of BCC and ACK cases seen in the dataset.
+ 
