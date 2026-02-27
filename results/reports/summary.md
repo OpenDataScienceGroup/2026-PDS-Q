@@ -15,4 +15,15 @@ While most masks fit the lesions well, this section is heavily impacted by clini
 
 Insights from metadata:
 The dataset primarily represents an elderly population, with most patients aged 60 to 80 years old and an average male majority(57.5%). Most people do not smoke or drink, while around 31% data(about smoking and drinking) is missing. The most common diagnoses are BCC and ACK, both of which are linked to long-term sun exposure in elderly people. Overall, this data indicates a high-risk aged population, which corresponds to the large number of BCC and ACK cases seen in the dataset.
+
+
+Insights regarding annotations:
+#### 1. Regarding hair coverage levels:
+    Most of the images were annotated with a low degree of hair coverage. This could benefit the future training of the model. However, some decisions should be made regarding the images at level 2-3.
+
+#### 2. Regarding Pen Marks
+    Almost 1/5 of the images have pen marks, which could also affect the model performance.
+
+#### 3. Inter-annotator agreement
+    Inter-annotator agreement, as measured by Cohen’s kappa, showed substantial agreement for hair coverage(0.6997) and almost perfect agreement for pen mark detection(0.8613). Evaluating hair coverage is subjective, while identifying pen marks is more unambiguous, and in my opinion that is the reason for which there is more agreement regarding pen marks.
  
